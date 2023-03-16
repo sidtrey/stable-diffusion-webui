@@ -47,7 +47,7 @@ mimetypes.add_type('application/javascript', '.js')
 if not cmd_opts.share and not cmd_opts.listen:
     # fix gradio phoning home
     gradio.utils.version_check = lambda: None
-    gradio.utils.get_local_ip_address = lambda: '127.0.0.1'
+    gradio.utils.get_local_ip_address = lambda: '10.0.0.118'
 
 if cmd_opts.ngrok != None:
     import modules.ngrok as ngrok

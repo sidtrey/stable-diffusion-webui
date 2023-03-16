@@ -124,7 +124,7 @@ def api_only():
 
     modules.script_callbacks.app_started_callback(None, app)
 
-    api.launch(server_name="0.0.0.0" if cmd_opts.listen else "127.0.0.1", port=cmd_opts.port if cmd_opts.port else 7861)
+    api.launch(server_name="10.0.0.118" if cmd_opts.listen else "10.0.0.118", port=cmd_opts.port if cmd_opts.port else 7861)
 
 
 def webui():

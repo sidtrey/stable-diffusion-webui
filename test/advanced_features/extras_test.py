@@ -3,7 +3,7 @@ import unittest
 
 class TestExtrasWorking(unittest.TestCase):
     def setUp(self):
-        self.url_img2img = "http://localhost:7860/sdapi/v1/extra-single-image"
+        self.url_img2img = "http://10.0.0.118:7860/sdapi/v1/extra-single-image"
         self.simple_extras = {
             "resize_mode": 0,
             "show_extras_results": True,
